@@ -1,0 +1,14 @@
+<single-spa-router>
+  <nav>
+    <application name="@mfe/navbar"></application>
+  </nav>
+
+  <main>
+    <route default>
+      <application name="@mfe/react-app"></application>
+    </route>
+    <route path="angular">
+      <application name="@mfe/angular-app"></application>
+    </route>
+  </main>
+</single-spa-router>
